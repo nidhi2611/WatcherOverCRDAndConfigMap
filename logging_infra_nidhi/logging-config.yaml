@@ -1,0 +1,20 @@
+components:
+  allspark-ca:
+    level: WARN
+    path: /var/log/asm-supervisor.log
+    timestampFormat: "2006-01-02T15:04:05Z07:00"
+    modules:
+      config:
+        level: ERROR
+
+      collector:
+        level: ERROR
+
+      sender:
+        level: DEBUG
+
+      policy-reader:
+        level: FATAL
+
+      diagnostics:
+        level: FATAL

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "logging"
+  namespace: "t01169079b2600f638feb375336bb702c5d"
+data:
+  config.yml: |
+    components:
+      allspark-ca:
+        level: DEBUG
+        modules:
+          server:
+            level: DEBUG
+          init:
+            level: DEBUG
+          store:
+            level: DEBUG
+          main:
+            level: DEBUG
+          misc:
+            level: DEBUG
